@@ -501,20 +501,20 @@ demo = {
     },
 
     showNotification: function(from, align) {
-        color = Math.floor((Math.random() * 4) + 1);
+        // color = Math.floor((Math.random() * 4) + 1);
 
-        $.notify({
-            icon: "nc-icon nc-app",
-            message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
+        // $.notify({
+        //     icon: "nc-icon nc-app",
+        //     message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
 
-        }, {
-            type: type[color],
-            timer: 8000,
-            placement: {
-                from: from,
-                align: align
-            }
-        });
+        // }, {
+        //     type: type[color],
+        //     timer: 8000,
+        //     placement: {
+        //         from: from,
+        //         align: align
+        //     }
+        // });
     }
 
 
